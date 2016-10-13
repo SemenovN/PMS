@@ -1,0 +1,88 @@
+﻿@model ProjectManagementSystem.Models.Project
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Project</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PrjctTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrjctTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrjctDesc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrjctDesc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectVelue.StatusVel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectVelue.StatusVel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrjctCustomer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrjctCustomer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrjctExecuter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrjctExecuter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrjctBegining)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrjctBegining)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrjctEnding)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrjctEnding)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrjctStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrjctStatus)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,62 @@
+﻿@model IEnumerable<ProjectManagementSystem.Models.Project>
+
+@{
+    ViewBag.Title = "Index";
+    var grid = new WebGrid(Model);
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Добавить проект", "Create")
+</p>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.Label("Приоритет проекта", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-1">
+                @Html.DropDownList("ProjectVelueId", String.Empty)
+
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("Дата начала", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-2">
+                @Html.Editor("PrjctBegining", new { htmlAttributes = new { @class = "form-control" } })
+
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("Дата окончания", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-2">
+                @Html.Editor("PrjctEnding", new { htmlAttributes = new { @class = "form-control" } })
+
+            </div>
+        </div>
+    <div class="form-group"  style="margin-bottom: 40px">
+        <div class="col-md-1">
+            <input type="submit" value="Отобрать" class="btn btn-default" />
+        </div>
+    </div>
+
+  }
+
+
+
+@grid.GetHtml(tableStyle: "table", htmlAttributes: new { style = "margin-top: 150px"},
+columns: grid.Columns(
+    grid.Column("PrjctTitle", header: "Название проекта", format: (item) => Html.ActionLink(((string)item.PrjctTitle), "Details", new { id = item.PrjctId })),
+    grid.Column("ProjectVelueId", header: "Приоритет проекта", format: @<text>@{@item.ProjectVelue.StatusVel}</text>),
+    grid.Column(header:  "Компания-заказчик", format: @<text>@{@item.PrjctCustomer}</text>),
+    grid.Column(header:  "Компания-испонитель", format: @<text>@{@item.PrjctExecuter}</text>),
+    grid.Column("PrjctBegining", header: "Начало", format: @<text>@{@item.PrjctBegining}</text>),
+    grid.Column("PrjctEnding", header: "Окончание", format: @<text>@{@item.PrjctEnding}</text>),
+    grid.Column(header:  "Статус проекта", format: @<text>@{@item.PrjctStatus}</text>),
+    grid.Column(header:  "", format: @<text>@{@Html.ActionLink("Delete", "Delete", new { id = item.PrjctId })}</text>)
+    )
+)
+

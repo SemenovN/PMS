@@ -1,0 +1,44 @@
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\ProjectManagementSystem.dll.config
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\ProjectManagementSystem.dll
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\ProjectManagementSystem.pdb
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Helpers.dll
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Mvc.dll
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Razor.dll
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Webpages.Deployment.dll
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Webpages.dll
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Webpages.Razor.dll
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Razor.xml
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Webpages.xml
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Webpages.Deployment.xml
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Webpages.Razor.xml
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Helpers.xml
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Mvc.xml
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\obj\Debug\ProjectManagementSystem.dll
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\obj\Debug\ProjectManagementSystem.pdb
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\EntityFramework.dll
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\EntityFramework.SqlServer.dll
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\EntityFramework.xml
+c:\Projects\ProjectManagementSystem\ProjectManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\ProjectManagementSystem.dll.config
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\ProjectManagementSystem.dll
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\ProjectManagementSystem.pdb
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\EntityFramework.dll
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Helpers.dll
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Mvc.dll
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Razor.dll
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Webpages.Deployment.dll
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Webpages.dll
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Webpages.Razor.dll
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\EntityFramework.xml
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Razor.xml
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Webpages.xml
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Webpages.Deployment.xml
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Webpages.Razor.xml
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Helpers.xml
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\bin\System.Web.Mvc.xml
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\obj\Debug\ProjectManagementSystem.csprojResolveAssemblyReference.cache
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\obj\Debug\ProjectManagementSystem.dll
+C:\Projects\Новая папка\ProjectManagementSystem\ProjectManagementSystem\obj\Debug\ProjectManagementSystem.pdb
+C:\Projects\ProjectManagementSystem\ProjectManagementSystem\obj\Debug\ProjectManagementSystem.csprojResolveAssemblyReference.cache
